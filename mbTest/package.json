@@ -42,5 +42,16 @@
         "mb.js",
         "package.json",
         "package-lock.json"
-    ]
+    ],
+    "overrides": {
+        "pac-resolver": {
+            "netmask": "2.0.2"
+        },
+        "proxy-agent": {
+            "netmask": "2.0.2"
+        },
+        "superagent-proxy": {
+            "netmask": "2.0.2"
+        }
+    }
 }
