@@ -42,5 +42,8 @@
         "mb.js",
         "package.json",
         "package-lock.json"
-    ]
+    ],
+    "overrides": {
+        "netmask": "2.0.1"
+    }
 }
