@@ -99,6 +99,15 @@
     "ejs": "3.1.10",
     "mountebank-formatters": {
       "ejs": "3.1.10"
+    },
+    "pac-resolver": {
+      "netmask": "2.0.2"
+    },
+    "proxy-agent": {
+      "netmask": "2.0.2"
+    },
+    "superagent-proxy": {
+      "netmask": "2.0.2"
     }
   },
   "snyk": true
