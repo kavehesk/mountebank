@@ -96,6 +96,7 @@
     "node": ">=18"
   },
   "overrides": {
+    "body-parser": "1.20.3",
     "ejs": "3.1.10",
     "mountebank-formatters": {
       "ejs": "3.1.10"
