@@ -47,17 +47,9 @@
         "body-parser": "1.20.3",
         "cross-spawn": "7.0.6",
         "form-data": "4.0.4",
-        "pac-resolver": {
-            "netmask": "2.0.2"
-        },
-        "proxy-agent": {
-            "netmask": "2.0.2"
-        },
+        "netmask": "2.0.2",
         "superagent": {
             "form-data": "2.5.4"
-        },
-        "superagent-proxy": {
-            "netmask": "2.0.2"
         }
     }
 }
