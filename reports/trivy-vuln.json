@@ -1,12 +1,12 @@
 {
   "SchemaVersion": 2,
-  "CreatedAt": "2025-09-25T06:03:50.515301966Z",
+  "CreatedAt": "2025-09-28T22:15:32.649635479Z",
   "ArtifactName": ".",
   "ArtifactType": "filesystem",
   "Metadata": {
     "Branch": "work",
-    "Commit": "1e7c0097d11e6dd28ea96d58ae992fe66133428e",
-    "CommitMsg": "fix(deps): pin body-parser to 1.20.3 (#14)",
+    "Commit": "8258d37fed6ae8ba3e86f26fe8461abc1f1c1ac4",
+    "CommitMsg": "fix(mbTest): override form-data to patched builds (#15)",
     "Author": "kavehesk \u003c63632234+kavehesk@users.noreply.github.com\u003e",
     "Committer": "GitHub \u003cnoreply@github.com\u003e"
   },
@@ -22,7 +22,7 @@
           "PkgName": "brace-expansion",
           "PkgIdentifier": {
             "PURL": "pkg:npm/brace-expansion@1.1.11",
-            "UID": "89123a96fa262a71"
+            "UID": "18df09df8906424e"
           },
           "InstalledVersion": "1.1.11",
           "FixedVersion": "2.0.2, 1.1.12, 3.0.1, 4.0.1",
@@ -238,69 +238,12 @@
           "LastModifiedDate": "2024-10-07T17:48:28.117Z"
         },
         {
-          "VulnerabilityID": "CVE-2024-21538",
-          "PkgID": "cross-spawn@5.1.0",
-          "PkgName": "cross-spawn",
-          "PkgIdentifier": {
-            "PURL": "pkg:npm/cross-spawn@5.1.0",
-            "UID": "64a86256b3388442"
-          },
-          "InstalledVersion": "5.1.0",
-          "FixedVersion": "7.0.5, 6.0.6",
-          "Status": "fixed",
-          "SeveritySource": "ghsa",
-          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-21538",
-          "DataSource": {
-            "ID": "ghsa",
-            "Name": "GitHub Security Advisory npm",
-            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
-          },
-          "Title": "cross-spawn: regular expression denial of service",
-          "Description": "Versions of the package cross-spawn before 6.0.6, from 7.0.0 and before 7.0.5 are vulnerable to Regular Expression Denial of Service (ReDoS) due to improper input sanitization. An attacker can increase the CPU usage and crash the program by crafting a very large and well crafted string.",
-          "Severity": "HIGH",
-          "CweIDs": [
-            "CWE-1333"
-          ],
-          "VendorSeverity": {
-            "amazon": 2,
-            "azure": 3,
-            "cbl-mariner": 3,
-            "ghsa": 3,
-            "redhat": 1
-          },
-          "CVSS": {
-            "ghsa": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-              "V3Score": 7.5
-            },
-            "redhat": {
-              "V3Vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H",
-              "V3Score": 4.4
-            }
-          },
-          "References": [
-            "https://access.redhat.com/security/cve/CVE-2024-21538",
-            "https://github.com/moxystudio/node-cross-spawn",
-            "https://github.com/moxystudio/node-cross-spawn/commit/5ff3a07d9add449021d806e45c4168203aa833ff",
-            "https://github.com/moxystudio/node-cross-spawn/commit/640d391fde65388548601d95abedccc12943374f",
-            "https://github.com/moxystudio/node-cross-spawn/commit/d35c865b877d2f9ded7c1ed87521c2fdb689c8dd",
-            "https://github.com/moxystudio/node-cross-spawn/issues/165",
-            "https://github.com/moxystudio/node-cross-spawn/pull/160",
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-21538",
-            "https://security.snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-8366349",
-            "https://security.snyk.io/vuln/SNYK-JS-CROSSSPAWN-8303230",
-            "https://www.cve.org/CVERecord?id=CVE-2024-21538"
-          ],
-          "PublishedDate": "2024-11-08T05:15:06.453Z",
-          "LastModifiedDate": "2025-05-20T15:16:03.53Z"
-        },
-        {
           "VulnerabilityID": "CVE-2021-23406",
           "PkgID": "degenerator@1.0.4",
           "PkgName": "degenerator",
           "PkgIdentifier": {
             "PURL": "pkg:npm/degenerator@1.0.4",
-            "UID": "662d1ace33cd18da"
+            "UID": "2ddab6860481b1d9"
           },
           "InstalledVersion": "1.0.4",
           "FixedVersion": "3.0.1",
@@ -356,7 +299,7 @@
           "PkgName": "express",
           "PkgIdentifier": {
             "PURL": "pkg:npm/express@4.18.2",
-            "UID": "ac3e89dbc784190e"
+            "UID": "e51a2e316639b009"
           },
           "InstalledVersion": "4.18.2",
           "FixedVersion": "4.19.2, 5.0.0-beta.3",
@@ -413,7 +356,7 @@
           "PkgName": "express",
           "PkgIdentifier": {
             "PURL": "pkg:npm/express@4.18.2",
-            "UID": "ac3e89dbc784190e"
+            "UID": "e51a2e316639b009"
           },
           "InstalledVersion": "4.18.2",
           "FixedVersion": "4.20.0, 5.0.0",
@@ -471,7 +414,7 @@
           "PkgName": "ip",
           "PkgIdentifier": {
             "PURL": "pkg:npm/ip@1.1.8",
-            "UID": "a73801ed417bc08b"
+            "UID": "6dcc7938c660b31"
           },
           "InstalledVersion": "1.1.8",
           "Status": "affected",
@@ -524,7 +467,7 @@
           "PkgName": "ip",
           "PkgIdentifier": {
             "PURL": "pkg:npm/ip@1.1.8",
-            "UID": "a73801ed417bc08b"
+            "UID": "6dcc7938c660b31"
           },
           "InstalledVersion": "1.1.8",
           "FixedVersion": "2.0.1, 1.1.9",
@@ -585,7 +528,7 @@
           "PkgName": "mem",
           "PkgIdentifier": {
             "PURL": "pkg:npm/mem@1.1.0",
-            "UID": "358176eeae02ffef"
+            "UID": "fdaa870870338cd3"
           },
           "InstalledVersion": "1.1.0",
           "FixedVersion": "4.0.0",
@@ -624,7 +567,7 @@
           "PkgName": "nanoid",
           "PkgIdentifier": {
             "PURL": "pkg:npm/nanoid@2.1.11",
-            "UID": "f11ff30d161116dd"
+            "UID": "a7c57ef4fd16f1c9"
           },
           "InstalledVersion": "2.1.11",
           "FixedVersion": "5.0.9, 3.3.8",
@@ -674,7 +617,7 @@
           "PkgName": "nanoid",
           "PkgIdentifier": {
             "PURL": "pkg:npm/nanoid@3.3.3",
-            "UID": "1ad173ca09c5b73d"
+            "UID": "d52eda58e82d5688"
           },
           "InstalledVersion": "3.3.3",
           "FixedVersion": "5.0.9, 3.3.8",
@@ -724,7 +667,7 @@
           "PkgName": "nodemailer",
           "PkgIdentifier": {
             "PURL": "pkg:npm/nodemailer@6.9.4",
-            "UID": "ee97a6bd8e007fd8"
+            "UID": "1e7d35a9662601f7"
           },
           "InstalledVersion": "6.9.4",
           "FixedVersion": "6.9.9",
@@ -764,7 +707,7 @@
           "PkgName": "pac-resolver",
           "PkgIdentifier": {
             "PURL": "pkg:npm/pac-resolver@3.0.0",
-            "UID": "1ba7566afd3b1935"
+            "UID": "92c0dae5b2fe157"
           },
           "InstalledVersion": "3.0.0",
           "FixedVersion": "5.0.0",
@@ -820,7 +763,7 @@
           "PkgName": "path-to-regexp",
           "PkgIdentifier": {
             "PURL": "pkg:npm/path-to-regexp@0.1.7",
-            "UID": "b4f9127044e2e121"
+            "UID": "370a37cf2abffba7"
           },
           "InstalledVersion": "0.1.7",
           "FixedVersion": "1.9.0, 0.1.10, 8.0.0, 3.3.0, 6.3.0",
@@ -877,7 +820,7 @@
           "PkgName": "path-to-regexp",
           "PkgIdentifier": {
             "PURL": "pkg:npm/path-to-regexp@0.1.7",
-            "UID": "b4f9127044e2e121"
+            "UID": "370a37cf2abffba7"
           },
           "InstalledVersion": "0.1.7",
           "FixedVersion": "0.1.12",
@@ -930,7 +873,7 @@
           "PkgName": "send",
           "PkgIdentifier": {
             "PURL": "pkg:npm/send@0.18.0",
-            "UID": "a5b8a0e52459e926"
+            "UID": "91b9d01b561b519e"
           },
           "InstalledVersion": "0.18.0",
           "FixedVersion": "0.19.0",
@@ -985,7 +928,7 @@
           "PkgName": "serialize-javascript",
           "PkgIdentifier": {
             "PURL": "pkg:npm/serialize-javascript@6.0.0",
-            "UID": "1cc5e76133ffc4fa"
+            "UID": "7b04eadcc19af34d"
           },
           "InstalledVersion": "6.0.0",
           "FixedVersion": "6.0.2",
@@ -1044,7 +987,7 @@
           "PkgName": "serve-static",
           "PkgIdentifier": {
             "PURL": "pkg:npm/serve-static@1.15.0",
-            "UID": "8c2925f571ca5ecd"
+            "UID": "72e0cb24c7a41ce"
           },
           "InstalledVersion": "1.15.0",
           "FixedVersion": "1.16.0, 2.1.0",
@@ -1100,7 +1043,7 @@
           "PkgName": "yargs-parser",
           "PkgIdentifier": {
             "PURL": "pkg:npm/yargs-parser@7.0.0",
-            "UID": "da78e29e4f4d4eb8"
+            "UID": "ede1b0e490458180"
           },
           "InstalledVersion": "7.0.0",
           "FixedVersion": "13.1.2, 15.0.1, 18.1.1, 5.0.1",
